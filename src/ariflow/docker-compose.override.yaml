@@ -1,0 +1,6 @@
+# These are overrides to the default Docker Compose configuration.
+services:
+  airflow-scheduler:
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL: '30'

@@ -9,3 +9,9 @@ wheels/
 # Virtual environments
 .venv
 api-book-part-one/
+
+# Generated Airflow task and scheduler logs
+/src/ariflow/logs/
+
+# Local Airflow environment settings
+/src/ariflow/.env
